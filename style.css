@@ -8,18 +8,34 @@ main{
     width: 90%;
     margin: auto;
     border: 1px solid blue;
+    height: 90vh;
 }
 
 .slack__display{
+    border: 1px solid black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    position: relative;
+
     .slack__display--profile{
-        width: 50%;
         border-radius: 50%;
+        width: 15rem;
+        height: 15rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border: 1px solid red;
+        position: absolute;
+        left: calc(50% - 15rem);  
 
         .slack__display--img{
-            width: 100%;
             border-radius: 50%;
-            display: block;
+            width: 100%;
+            height: 100%;
+            /* display: block; */
         }
     }
 }

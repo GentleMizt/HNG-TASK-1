@@ -53,4 +53,15 @@ main{
 .slack__details{
     margin-top: 3rem;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .slack__details--div > h2{
+        color: rgba(109, 118, 133);
+    }
+
+    > h2{
+        font-size: 3rem;
+    }
 }

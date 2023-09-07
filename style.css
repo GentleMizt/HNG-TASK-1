@@ -123,6 +123,11 @@ main{
 }
 
 @media (max-width: 832px){
+    main{
+        width: 80%;
+    }
+}
+@media (max-width: 832px){
     .slack__details .slack__details--div{
         width: 75%;
     }

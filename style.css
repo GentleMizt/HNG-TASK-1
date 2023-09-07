@@ -62,12 +62,31 @@ main{
     gap: 1.5rem;
     padding: 0 2.4rem;
 
-    .slack__details--div > h2{
-        /* color: rgba(109, 118, 133); */
-        color: lightgrey;
+
+    .slack__details--flex{
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
     }
 
-    .slack__details--div > p{
+    .slack__details--div{
+        display: flex;
+        /* border: 1px solid red; */
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+    }
+
+    .slack__details--div > h2{
+        color: lightgrey;
+        font-size: 2rem;
+    }
+
+    .slack__details--div > img{
+        width: 10%;
+    }
+
+    .slack__details--div ~ p{
         font-size: 1.3rem;
         font-weight: 550;
         color: #121212;

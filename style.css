@@ -19,7 +19,7 @@ main{
     width: 80%;
     margin: auto;
     height: 90vh;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .slack__display{
@@ -48,7 +48,7 @@ main{
     & h1{
         position: absolute;
         top: 88%;
-        transform: translateX(238%);
+        transform: translateX(232%);
         left: calc(50% - 150px);  
         font-size: 2rem;
     }
@@ -69,16 +69,19 @@ main{
     .slack__details--div > p{
         font-size: 1.3rem;
         font-weight: 550;
+        color: #121212;
     }
 
     .slack__details--div > a{
         text-decoration: none;
         font-size: 1.3rem;
         font-weight: 550;
-        color: black;
+        color: #121212;
     }
 
     > h2{
         font-size: 3rem;
+        color: #121212;
+
     }
 }

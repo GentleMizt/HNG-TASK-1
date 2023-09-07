@@ -17,9 +17,10 @@ body{
 }
 
 main{
+    /* border: 1px solid red; */
     width: 60%;
     margin: auto;
-    height: 90vh;
+    height: 100vh;
     /* box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
@@ -74,7 +75,7 @@ main{
         /* border: 1px solid red; */
         justify-content: space-between;
         align-items: center;
-        width: 45%;
+        width: 55%;
     }
 
     .slack__details--div > h2{
@@ -83,7 +84,7 @@ main{
     }
 
     .slack__details--div > img{
-        width: 10%;
+        width: 8%;
     }
 
     .slack__details--div ~ p{
@@ -92,7 +93,7 @@ main{
         color: #121212;
     }
 
-    .slack__details--div > a{
+    .slack__details--div ~ a{
         text-decoration: none;
         font-size: 1.3rem;
         font-weight: 550;

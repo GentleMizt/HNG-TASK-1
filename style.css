@@ -11,7 +11,7 @@ html{
 }
 
 body{
-    padding: 3rem 0;
+    /* padding: 3rem 0; */
     font-family: 'Poppins', sans-serif;
     background: url(./images/scattered-forcefields.svg);
 }
@@ -41,6 +41,7 @@ main{
             border-radius: 50%;
             width: 17rem;
             height: 17rem;
+            border: 6px solid green;
     
             .slack__display--img{
                 border-radius: 50%;

@@ -116,35 +116,30 @@ main{
 
 @media (max-width: 975px){
     .slack__details .slack__details--div{
-        border: 1px solid red;
         width: 65%;
     }
 }
 
 @media (max-width: 832px){
     .slack__details .slack__details--div{
-        border: 1px solid red;
         width: 75%;
     }
 }
 
 @media (max-width: 747px){
     .slack__details .slack__details--div{
-        border: 1px solid red;
         width: 85%;
     }
 }
 
 @media (max-width: 626px){
     .slack__details .slack__details--div{
-        border: 1px solid red;
         width: 95%;
     }
 }
 
 @media (max-width: 575px){
     .slack__details .slack__details--div{
-        border: 1px solid red;
         width: 100%;
     }
 

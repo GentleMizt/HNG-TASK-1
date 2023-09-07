@@ -12,5 +12,12 @@ const displayCurrentDayOfWeek = () =>{
 }
 
 // Function to display Current time in Milliseconds
+const displayTimeinMilli = () => {
+    const currentDate = new Date();
+    const currentDateInMilli = currentDate.getTime();
+
+    timeInMilli.textContent = `Current UTC Time in Milliseconds: ${currentDateInMilli}`;
+}
 
 displayCurrentDayOfWeek();
+displayTimeinMilli();

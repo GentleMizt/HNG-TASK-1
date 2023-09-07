@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ html{
 
 body{
     padding: 3rem 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
@@ -21,11 +24,11 @@ main{
 
 .slack__display{
     /* border: 1px solid black; */
-    height: 39%;
+    height: 42%;
     display: flex;
     flex-direction: column; 
     position: relative;
-    padding: 1.5rem 0;
+    padding: 3.5rem 0;
 
     .slack__display--profile{
         border-radius: 50%;
@@ -45,18 +48,17 @@ main{
     & h1{
         position: absolute;
         top: 88%;
-        transform: translateX(270%);
+        transform: translateX(238%);
         left: calc(50% - 150px);  
         font-size: 2rem;
     }
 }
 
 .slack__details{
-    margin-top: 3rem;
-    border: 1px solid red;
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
     padding: 0 2.4rem;
 
     .slack__details--div > h2{
@@ -67,6 +69,13 @@ main{
     .slack__details--div > p{
         font-size: 1.3rem;
         font-weight: 550;
+    }
+
+    .slack__details--div > a{
+        text-decoration: none;
+        font-size: 1.3rem;
+        font-weight: 550;
+        color: black;
     }
 
     > h2{

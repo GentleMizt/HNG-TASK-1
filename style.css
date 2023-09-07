@@ -78,6 +78,11 @@ main{
         font-size: 1.3rem;
         font-weight: 550;
         color: #121212;
+        transition: all .3s;
+
+        &:hover{
+            color: blue;
+        }
     }
 
     > h2{

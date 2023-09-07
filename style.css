@@ -81,6 +81,7 @@ main{
     .slack__details--div > h2{
         color: lightgrey;
         font-size: 2rem;
+        line-height: 1.2;
     }
 
     .slack__details--div > img{
@@ -91,6 +92,7 @@ main{
         font-size: 1.3rem;
         font-weight: 550;
         color: #121212;
+        line-height: 1.2;
     }
 
     .slack__details--div ~ a{
@@ -108,7 +110,7 @@ main{
     > h2{
         font-size: 3rem;
         color: #121212;
-
+        line-height: 1;
     }
 }
 

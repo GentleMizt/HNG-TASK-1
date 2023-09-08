@@ -14,9 +14,15 @@ const displayCurrentDayOfWeek = () =>{
 // Function to display Current time in Milliseconds
 const displayTimeinMilli = () => {
     const currentDate = new Date();
-    const currentDateInMilli = currentDate.getTime();
+    let currentTimeInMilli = `${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()}`;
 
-    timeInMilli.textContent = `${currentDateInMilli}`;
+    if (currentDate.getHours() >= 12) {
+        currentTimeInMilli = `${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()} PM`;
+    } else {
+        currentTimeInMilli = `${currentDate.getHours()}:${currentDate.getMinutes()}:${currentDate.getSeconds()} AM`;   
+    }
+    
+    timeInMilli.textContent = `${currentTimeInMilli}`;
 }
 
 displayCurrentDayOfWeek();

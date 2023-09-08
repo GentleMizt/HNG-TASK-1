@@ -1,4 +1,3 @@
-'use strict';
 
 const currentDay = document.getElementById('day');
 const timeInMilli = document.getElementById('time');
@@ -16,8 +15,12 @@ const displayTimeinMilli = () => {
     const currentDate = new Date();
     const currentDateInMilli = currentDate.getTime();
 
-    timeInMilli.textContent = `${currentDateInMilli}`;
+    // Format the millisecond count with commas as thousands separators
+    const formattedTimeInMilli = currentDateInMilli.toLocaleString();
+
+    timeInMilli.textContent = formattedTimeInMilli;
 }
 
+setInterval(displayTimeinMilli, 1000);
 displayCurrentDayOfWeek();
-displayTimeinMilli();
+// displayTimeinMilli();

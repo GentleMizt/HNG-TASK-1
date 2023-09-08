@@ -1,5 +1,6 @@
 
 const currentDay = document.getElementById('day');
+
 const timeInMilli = document.getElementById('time');
 
 // Function to display current Day of the week
@@ -23,4 +24,3 @@ const displayTimeinMilli = () => {
 
 setInterval(displayTimeinMilli, 1000);
 displayCurrentDayOfWeek();
-// displayTimeinMilli();

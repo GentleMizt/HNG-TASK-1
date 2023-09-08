@@ -8,51 +8,36 @@
 </head>
 <body>
     <main>
-        <section class="slack__display">
-            <div class="slack__display--flex">
-                <!-- Slack Display Picture -->
-                <div class="slack__display--profile">
-                    <img class="slack__display--img" src="./images/lancer-img.jpg" alt="Lansa" data-testid="slackDisplayImage">
-                </div>
-                <!-- Slack Name -->
-                <h1 data-testid="slackUserName">Lansa</h1>
+        <div class="slack__display--flex">
+            <!-- Slack Display Picture -->
+            <div class="slack__display--profile">
+                <img class="slack__display--img" src="./images/lancer-img.jpg" alt="Lansa" data-testid="slackDisplayImage">
             </div>
-        </section>
+            <!-- Slack Name -->
+            <h1 data-testid="slackUserName">Lansa</h1>
+        </div>
 
-        <section class="slack__details">
-            <div class="slack__details--day slack__details--flex">
-                <!-- Current Day of the Week -->
-                <div class="slack__details--div">
-                    <h2>Current Day of the Week</h2>
-                </div>
-                <p data-testid="currentDayOfTheWeek" id="day"></p>
-            </div>
 
-            <div class="slack__details--day slack__details--flex">
-                <!-- Current UTC Time -->
-                <div class="slack__details--div">
-                    <h2>Current UTC Time</h2>
-                </div>
-                <p data-testid="currentUTCTime" id="time"></p>
-            </div>
+        <div class="slack__details--day">
+            <!-- Current Day of the Week -->
+            <p data-testid="currentDayOfTheWeek" id="day"></p>
+        </div>
 
-            <div class="slack__details--day slack__details--flex">
-                <!-- Track -->
-                <div class="slack__details--div">
-                    <h2>Current Track</h2>
-                </div>
-                <p data-testid="myTrack">Frontend Stage 1</p>
-            </div>
+        <div class="slack__details--time">
+            <!-- Current UTC Time -->
+            <p data-testid="currentUTCTime" id="time"></p>
+        </div>
 
-            <div class="slack__details--day slack__details--flex">
-                <!-- GitHub URL -->
-                <div class="slack__details--div">
-                    <h2>GitHub URL</h2>
-                </div>
-                <a href="https://github.com/GentleMizt/HNG-TASK-1" target="_blank" data-testid="githubURL">View Code</a>
-            </div>
+        <div class="slack__details--track">
+            <!-- Track -->
+            <p data-testid="myTrack">Frontend Stage 1</p>
+        </div>
 
-        </section>
+        <div class="slack__details--url">
+            <!-- GitHub URL -->
+            <a href="https://github.com/GentleMizt/HNG-TASK-1" target="_blank" data-testid="githubURL">View Code</a>
+        </div>
+
 
     </main>
     <script src="./script.js"></script>

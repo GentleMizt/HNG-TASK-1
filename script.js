@@ -14,10 +14,10 @@ const displayCurrentDayOfWeek = () =>{
 // Function to display Current time in Milliseconds
 const displayTimeinMilli = () => {
     const currentDate = new Date();
-    const currentTimeInMilli = currentDate.toLocaleTimeString([], {hour12: true});
+    const currentDateInMilli = currentDate.getTime();
 
-    timeInMilli.textContent = `${currentTimeInMilli}`;
+    timeInMilli.textContent = `${currentDateInMilli}`;
 }
 
-setInterval(displayTimeinMilli, 1000);
 displayCurrentDayOfWeek();
+displayTimeinMilli();
